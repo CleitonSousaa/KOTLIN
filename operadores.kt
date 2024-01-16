@@ -32,4 +32,21 @@ fun main(){
     x += 5
     println("Operador de atribuição combinada: $x")
 
+    val a = 5
+    val b = 10
+
+    val isEqual = (a == b)
+    val isNotEqual = (a != b)
+    val isGreaterThan = (a > b)
+    val isLessThan = (a < b)
+    val isGreaterOrEqual = (a >= b)
+    val isLessOrEqual = (a <= b)
+
+    println("Equal: $isEqual")
+    println("Not Equal: $isNotEqual")
+    println("Greater Than: $isGreaterThan")
+    println("Less Than: $isLessThan")
+    println("Greater Or Equal: $isGreaterOrEqual")
+    println("Less Or Equal: $isLessOrEqual")
+
 }
