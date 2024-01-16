@@ -49,4 +49,19 @@ fun main(){
     println("Greater Or Equal: $isGreaterOrEqual")
     println("Less Or Equal: $isLessOrEqual")
 
+    //Operadores Lógicos
+
+    val condicion = true
+    val condicion1 = true
+    val condicion2 = false
+
+    val resultado = condicion1 && condicion2
+    // resultado será false
+    val resultado2 = condicion1 || condicion2
+    // resultado será true
+    val resultado3 = !condicion
+    // resultado será false
+
+    println("$resultado $resultado2 $resultado3")
+
 }
